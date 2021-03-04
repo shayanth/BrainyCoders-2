@@ -1,0 +1,2002 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* $Desktop : 1200px;
+$Laptop : 1024px;
+$Tablet : 768px;
+$Phone : 480px; */
+@media (min-width:1025px) and (max-width:1920px){
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #373636;
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    background-color: transparent;
+    z-index: 500;
+}
+
+header .toggle-btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.toggle-btn span {
+    display: block;
+    font-size: 30px;
+    color: white;
+}
+
+.logo {
+    margin: 20px;
+    width: 200px;
+}
+
+.Nav_Style {
+    display: flex;
+    margin: 20px;
+    list-style: none;
+}
+
+.Nav_Style li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.3rem;
+    padding: 0 30px;
+}
+
+.Nav_Style li a {
+    text-decoration: none;
+    color: white;
+    transition:.5s;
+    border-radius: 40px;
+    padding: 10px;
+}
+.Nav_Style li a:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 4px solid #00ec7e;
+}
+
+.AboutUs {
+    padding: 10px;
+    border: 2px solid #00ec7e;
+    border-radius: 40px;
+    transition: .5s;
+}
+.AboutUs:hover {
+    padding: 10px;
+    border: 2px solid #00ec7e;
+    background-color: #00ec7e;
+    border-radius: 40px;
+}
+
+.Sticky {
+    transition: .5s;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Section 1 */
+.Sec1 {
+    width: 100vw;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.LeftPart {
+    position: relative;
+    display: inline;
+    margin-top: 6%;
+
+}
+
+.RightPart {
+    position: relative;
+    display: inline;
+    margin-left: 20%;
+}
+
+.Full_Logo {
+    position: absolute;
+    width: 25vw;
+    left: 2vw;
+    top: 60px;
+}
+
+.Home_Des {
+    position: absolute;
+    font-size: 1.6vmax;
+    color: white;
+    line-height: 300%;
+    font-family: 'Montserrat', sans-serif;
+    top: 10%;
+    left: 32vw;
+}
+
+.Rect {
+    width: 50vw;
+    transform: scaleX(1.2);
+}
+
+.Ellipse {
+    position: absolute;
+    width: 40vw;
+    right: -30vw;
+}
+
+.Cyber {
+    position: absolute;
+    width: 40vw;
+    right: -35vw;
+    top: 18vh;
+    z-index: 2;
+}
+
+.Sec1End {
+    width: 50vw;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+/* Section 2 */
+.Sec2 {
+    margin-top: 2%;
+    margin-bottom: 30%;
+    width: 100vw;
+    display: flex;
+}
+
+.ProjectWrap {
+    position: relative;
+    display: inline;
+    margin-top: 5%;
+    right: -48vw;
+}
+
+.ProjectStruct {
+    position: absolute;
+    font-size: 4vw;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 19%;
+    margin-top: 2%;
+    z-index: 4;
+}
+
+.ProjetHead {
+    width: 50vw;
+}
+
+.CompLogo {
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 45vw;
+    position: absolute;
+}
+
+.ProjectLevels {
+    margin-top: 15%;
+    right: 2vw;
+    position: relative;
+}
+
+.BackSec2 {
+    width: 50vw;
+    position: absolute;
+}
+
+.ProjectLevel1,
+.ProjectLevel2,
+.ProjectLevel3,
+.ProjectLevel4 {
+    font-size: 1.5vw;
+    color: white;
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.ProjectLevel1 {
+    margin-top: 15%;
+    margin-left: 5vw;
+}
+
+.ProjectLevel2 {
+    margin-top: 12vh;
+    margin-left: 14vw;
+}
+
+.ProjectLevel3 {
+    margin-top: 22vh;
+    margin-left: 20vw;
+}
+
+.ProjectLevel4 {
+    margin-top: 32vh;
+    margin-left: 25vw;
+}
+
+.Sec2End {
+    width: 50vw;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+/* Section 3 */
+.Sec3 {
+    display: block;
+    width: 100vw;
+    margin-bottom: 50vh;
+}
+
+.Sec3Wrap {
+    position: relative;
+}
+
+.Left_Polygon {
+    position: absolute;
+    width: 20vw;
+    margin-bottom: 50%;
+    left: 0;
+    top: -15vh;
+    transform: rotate(180deg);
+}
+
+.Right_Polygon {
+    position: absolute;
+    width: 20vw;
+    margin-bottom: 90%;
+    right: 0;
+}
+
+.swiper-container {
+    z-index: 3;
+    margin-top: 10%;
+    width: 80vw;
+}
+
+.Slide {
+    width: 80vw;
+}
+
+.Slide_Wrapper {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Slide_Wrapper .Slide_Name {
+    z-index: 10;
+    font-size: 2rem;
+    position: relative;
+    text-align: center;
+    top: 60px;
+}
+
+.Slide_Wrapper .Slide {
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 300px;
+    height: 380px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.Slide_Wrapper .Duty {
+    font-size: 25px;
+    top: 10%;
+}
+
+.swiper-container {
+    width: 90%;
+}
+
+.Slide_Wrapper .Slide .image_box img {
+    z-index: 0;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
+    bottom: 0;
+    margin-left: -20%;
+    width: 370px;
+}
+
+/* Section 4 */
+.Sec4 {
+    display: block;
+    width: 100vw;
+    background-image: url(./include/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+    background-size: cover;
+    padding-bottom: .5vh;
+}
+
+.Technologies {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.Sec4_Head_Text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -2vh;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 2.5vw;
+    z-index: 2;
+
+}
+
+.Sec4_Head {
+    width: 30vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -5vh;
+    margin: 0 auto;
+}
+
+.Techs {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.Tech_Row {
+    padding-top: 12%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Tech_Box {
+    position: relative;
+    width: 20vw;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+}
+
+.Tech_Box img {
+    width: 8vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -40%;
+    margin: 0 auto;
+
+}
+
+.Tech_Name {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10vh;
+}
+
+.Tech_Desc {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 30px;
+    margin-top: 5vh;
+    font-size: 1.5vw;
+}
+
+/* Section 5 */
+.Sec5 {
+    width: 100vw;
+    position: relative;
+}
+
+.Projects {
+    position: absolute;
+    width: 100vw;
+    left: 5vw;
+    top: 2vh;
+    bottom: 0vw;
+    right: 0vw;
+
+}
+.Project_Row {
+    display: flex;
+    justify-content: space-around;
+}
+.Projects_img {
+    width: 30vw;
+}
+.BG_Sec5{
+    top:20vh;
+}
+/* Section 6 */
+.Sec6{
+    width: 100vw;
+    margin-top: 5%;
+}
+.Form_Frame{
+    width: 90vw;
+    display: block;
+    margin: 0 auto;
+    
+}
+.Sec6Wrap{
+    display: flex;
+    position: relative;
+}
+.Form_img{
+    width: 30vw;
+    z-index: 2;
+}
+.Form{
+    position: absolute;
+    display: block;
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 85%;
+    left: 20vw;
+    top: 10%;
+}
+
+.Header_form {
+    color: white;
+    font-size: 2.5vw;
+    margin-top: 2%;
+    margin-left: 45%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Form input {
+    display: block;
+    margin: 2% auto;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    width: 10vw;
+}
+
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.Form .Name {
+    background: transparent;
+    border: none;
+    width: 20vw;
+    font-size: 1vw;
+    padding-bottom: 2%;
+    border-bottom: 2px solid white;
+}
+
+.Form .Mail {
+    background: transparent;
+    border: none;
+    width: 20vw;
+    font-size: 1vw;
+    padding-bottom: 1%;
+    border-bottom: 2px solid white;
+}
+
+.Request_Head {
+    color: white;
+    font-size: 1.5vw;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.Request {
+    display: block;
+    margin: 0 auto;
+    margin-left: 20%;
+    width: 45vw;
+    height: 40%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.Sub {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    font-weight: 900;
+    padding: 1%;
+    background: transparent;
+    color: white;
+    margin-top: 2%;
+    margin-left: 85%;
+    border: solid 2px #00ec7e;
+    border-radius: 20px;
+    transition: .5s;
+}
+.Sub:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    font-weight: 900;
+    padding: 1%;
+    background: transparent;
+    color: black;
+    margin-top: 2%;
+    margin-left: 85%;
+    border: solid 2px #00ec7e;
+    background-color: #00ec7e;
+    border-radius: 20px;
+}
+
+
+footer {
+    display: block;
+    width: 100vw;
+    margin: 5% auto;
+    padding: 2%;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .6);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo_footer {
+    width: 15vw;
+    display: block;
+    margin: 0 auto;
+}
+}
+/* Tablet landscape and laptop Design */
+@media (min-width:769px) and (max-width:1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: #373636;
+
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        background-color: transparent;
+        z-index: 500;
+    }
+
+    header .toggle-btn {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 10px;
+        height: 10px;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    .toggle-btn span {
+        display: block;
+        font-size: 30px;
+        color: white;
+    }
+
+    .logo {
+        margin: 20px;
+        width: 200px;
+    }
+
+    .Nav_Style {
+        display: flex;
+        margin: 20px;
+        list-style: none;
+    }
+
+    .Nav_Style li {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 1.3rem;
+        padding: 0 10px;
+    }
+
+    .Nav_Style li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .AboutUs {
+        padding: 8px;
+        border: 2px solid #00ec7e;
+        border-radius: 40px;
+    }
+
+    .Sticky {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Section 1 */
+    .Sec1 {
+        width: 100vw;
+        display: flex;
+        margin-bottom: 80px;
+    }
+
+    .LeftPart {
+        position: relative;
+        display: inline;
+        margin-top: 6%;
+
+    }
+
+    .RightPart {
+        position: relative;
+        display: inline;
+        margin-left: 20%;
+    }
+
+    .Full_Logo {
+        position: absolute;
+        width: 25vw;
+        left: 2vw;
+        top: 60px;
+    }
+
+    .Home_Des {
+        position: absolute;
+        font-size: 1.6vmax;
+        color: white;
+        line-height: 30px;
+        font-family: 'Montserrat', sans-serif;
+        top: 10%;
+        left: 32vw;
+    }
+
+    .Rect {
+        width: 50vw;
+        transform: scaleX(1.2);
+    }
+
+    .Ellipse {
+        position: absolute;
+        width: 40vw;
+        right: -30vw;
+    }
+
+    .Cyber {
+        position: absolute;
+        width: 40vw;
+        right: -35vw;
+        top: 10vh;
+        z-index: 2;
+    }
+
+    .Sec1End {
+        width: 50vw;
+        margin: 0 auto;
+        background-color: gray;
+    }
+
+    /* Section 2 */
+    .Sec2 {
+        margin-top: 2%;
+        margin-bottom: 30%;
+        width: 100vw;
+        display: flex;
+    }
+
+    .ProjectWrap {
+        position: relative;
+        display: inline;
+        margin-top: 5%;
+        right: -50vw;
+    }
+
+    .ProjectStruct {
+        position: absolute;
+        font-size: 4vw;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-left: 19%;
+        margin-top: 2%;
+    }
+
+    .ProjetHead {
+        width: 50vw;
+    }
+
+    .CompLogo {
+        margin-top: 5%;
+        margin-left: 2%;
+        width: 45vw;
+        position: absolute;
+    }
+
+    .ProjectLevels {
+        margin-top: 15%;
+        position: relative;
+    }
+
+    .BackSec2 {
+        width: 50vw;
+        position: absolute;
+    }
+
+    .ProjectLevel1,
+    .ProjectLevel2,
+    .ProjectLevel3,
+    .ProjectLevel4 {
+        font-size: 1.5vw;
+        color: white;
+        z-index: 2;
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        white-space: nowrap;
+    }
+
+    .ProjectLevel1 {
+        margin-top: 20px;
+        margin-left: 5vw;
+    }
+
+    .ProjectLevel2 {
+        margin-top: 60px;
+        margin-left: 14vw;
+    }
+
+    .ProjectLevel3 {
+        margin-top: 100px;
+        margin-left: 20vw;
+    }
+
+    .ProjectLevel4 {
+        margin-top: 140px;
+        margin-left: 25vw;
+    }
+
+    .Sec2End {
+        width: 50vw;
+        margin: 0 auto;
+        background-color: gray;
+    }
+
+    /* Section 3 */
+    .Sec3 {
+        display: block;
+        width: 100vw;
+        margin-bottom: 30vh;
+    }
+
+    .Sec3Wrap {
+        position: relative;
+    }
+
+    .Left_Polygon {
+        position: absolute;
+        width: 20vw;
+        margin-bottom: 30%;
+        left: 0;
+        top: -15vh;
+        transform: rotate(180deg);
+    }
+
+    .Right_Polygon {
+        position: absolute;
+        width: 20vw;
+        margin-bottom: 90%;
+        right: 0;
+    }
+
+    .swiper-container {
+        margin-top: 10%;
+        width: 80vw;
+    }
+
+    .Slide {
+        width: 80vw;
+    }
+
+    .Slide_Wrapper {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Slide_Wrapper .Slide_Name {
+        z-index: 10;
+        font-size: 2rem;
+        position: relative;
+        text-align: center;
+        top: 60px;
+    }
+
+    .Slide_Wrapper .Slide {
+        border-radius: 25px;
+        margin: 0 auto;
+        width: 300px;
+        height: 380px;
+        background-color: rgba(0, 0, 0, .6);
+    }
+
+    .Slide_Wrapper .Duty {
+        font-size: 25px;
+        top: 10%;
+    }
+
+    .swiper-container {
+        width: 90%;
+    }
+
+    .Slide_Wrapper .Slide .image_box img {
+        z-index: 0;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10%;
+        bottom: 0;
+        margin-left: -20%;
+        width: 370px;
+    }
+
+    /* Section 4 */
+    .Sec4 {
+        display: block;
+        width: 100vw;
+        background-image: url(./include/james-harrison-vpOeXr5wmR4-unsplash.jpg);
+        background-size: cover;
+        padding-bottom: .5vh;
+    }
+
+    .Technologies {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .Sec4_Head_Text {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: -2vh;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 4vw;
+        z-index: 2;
+
+    }
+
+    .Sec4_Head {
+        width: 40vw;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: -5vh;
+        margin: 0 auto;
+    }
+
+    .Techs {
+        display: block;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    .Tech_Row {
+        padding-top: 12%;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .Tech_Box {
+        position: relative;
+        width: 20vw;
+        height: 200px;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 20px;
+    }
+
+    .Tech_Box img {
+        width: 10vw;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: -30%;
+        margin: 0 auto;
+
+    }
+
+    .Tech_Name {
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 8vh;
+    }
+
+    .Tech_Desc {
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        padding: 0 30px;
+        margin-top: 3vh;
+        font-size: 2vw;
+    }
+
+    /* Section 5 */
+    .Sec5 {
+        width: 100vw;
+        position: relative;
+    }
+
+    .Projects {
+        position: absolute;
+        width: 100vw;
+        left: 5vw;
+        top: 10vh;
+        bottom: 0vw;
+        right: 0vw;
+
+    }
+    .Project_Row {
+        display: flex;
+        justify-content: space-around;
+    }
+    .Projects_img {
+        width: 30vw;
+    }
+    .BG_Sec5{
+        margin-top: -36vh;
+    }
+    /* Section 6 */
+    .Sec6{
+        width: 100vw;
+        margin-top: 5%;
+    }
+    .Form_Frame{
+        width: 90vw;
+        display: block;
+        margin: 0 auto;
+        
+    }
+    .Sec6Wrap{
+        display: flex;
+        position: relative;
+    }
+    .Form_img{
+        width: 40vw;
+        z-index: 2;
+    }
+    .Form{
+        position: absolute;
+        display: block;
+        width: 60vw;
+        background-color: rgba(0, 0, 0, 0.6);
+        height: 50vh;
+        left: 30vw;
+        top: 10vh;
+    }
+
+    .Header_form {
+        color: white;
+        font-size: 3.5vw;
+        margin-top: 2%;
+        margin-left: 35%;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .Form input {
+        display: block;
+        margin: 2% auto;
+        margin-bottom: 3%;
+        margin-left: 25%;
+        width: 10vw;
+    }
+
+    ::placeholder {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        color: white;
+    }
+
+    .Form .Name {
+        background: transparent;
+        border: none;
+        width: 30vw;
+        font-size: 1.5vw;
+        padding-bottom: 2%;
+        border-bottom: 2px solid white;
+    }
+
+    .Form .Mail {
+        background: transparent;
+        border: none;
+        width: 30vw;
+        font-size: 1.5vw;
+        padding-bottom: 1%;
+        border-bottom: 2px solid white;
+    }
+
+    .Request_Head {
+        color: white;
+        font-size: 2.5vw;
+        margin-bottom: 2%;
+        margin-left: 25%;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
+    .Request {
+        display: block;
+        margin: 0 auto;
+        margin-left: 20%;
+        width: 45vw;
+        height: 15vh;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 2%;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+    }
+
+    .Sub {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5vw;
+        font-weight: 900;
+        padding: 2%;
+        background: transparent;
+        color: white;
+        margin-top: 2%;
+        margin-left: 80%;
+        border: solid 2px #00ec7e;
+        border-radius: 20px;
+    }
+
+
+    footer {
+        display: block;
+        width: 100vw;
+        margin: 5% auto;
+        padding: 2%;
+        margin-bottom: 0;
+        background-color: rgba(0, 0, 0, .6);
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .logo_footer {
+        width: 15vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width :768px) and (min-width: 481px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: #373636;
+
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        z-index: 500;
+    }
+
+    header .toggle-btn {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 10px;
+        height: 10px;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    .toggle-btn span {
+        display: block;
+        font-size: 30px;
+        color: white;
+    }
+
+    .Nav_Style {
+        position: absolute;
+        margin-top: 5%;
+        top: 5vh;
+        width: 100vw;
+        background-color: rgb(0, 0, 0);
+        display: block;
+        list-style: none;
+        text-align: center;
+        color: black;
+        transform-origin: top;
+        transform: scaleY(0);
+        transition: transform 1s;
+        z-index: -1;
+
+    }
+
+    .Nav_Style_Transition {
+        transform: scaleY(1);
+        color: white;
+    }
+
+    .Nav_Style li {
+        padding: 20px;
+    }
+
+    .Nav_Style li a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        transition: .5s;
+    }
+
+    .toggle-btn {
+        width: 400px;
+        height: 400px;
+
+    }
+
+    .toggle-btn .bar {
+        height: 30px;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    /* ################SEC1####################### */
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: -25px;
+        width: 55vw;
+        height: 50%;
+    }
+
+    .Sec1 {
+        width: 100%;
+
+    }
+
+    .Full_Logo {
+        display: block;
+        margin: 20% auto;
+        margin-top: 100px;
+        width: 80%;
+        height: 80%;
+        z-index: 2;
+    }
+
+    .Rect {
+        display: none;
+    }
+
+    .Cyber {
+        display: none;
+    }
+
+    .Ellipse {
+        display: none;
+    }
+
+    .Home_Des {
+        width: 80%;
+        height: 80%;
+        display: block;
+        margin-left: 11%;
+        font-size: 1.9rem;
+        list-style: none;
+        color: #fff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .Home_Des li {
+
+        margin: 50px 0px;
+    }
+
+    /* ################SEC2####################### */
+    .ProjectWrap {
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+
+    .ProjectStruct {
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 7%;
+        font-size: 7vw;
+        color: #fff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .ProjetHead {
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    .CompLogo {
+        width: 90%;
+        margin: 5%;
+    }
+
+    .BackSec2 {
+        display: none;
+    }
+
+    .ProjectLevel1,
+    .ProjectLevel2,
+    .ProjectLevel3,
+    .ProjectLevel4 {
+        font-size: 2.5rem;
+        color: #fff;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 10%;
+        padding-bottom: 3%;
+        border-bottom: 2px solid #00ec7e;
+        width: 60%;
+    }
+
+    .Sec2End {
+        display: none;
+    }
+
+    /* ################SEC3####################### */
+    .Left_Polygon {
+        width: 40%;
+        transform: rotate(180deg);
+    }
+
+    .swiper-container {
+        width: 90%;
+    }
+
+    .Slide {
+        width: 80%;
+    }
+
+    .Slide_Wrapper {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Slide_Wrapper .Slide_Name {
+        z-index: 10;
+        font-size: 2rem;
+        position: relative;
+        text-align: center;
+        top: 60px;
+    }
+
+    .Slide_Wrapper .Slide {
+        border-radius: 25px;
+        margin: 0 auto;
+        width: 300px;
+        height: 380px;
+        background-color: rgba(0, 0, 0, .6);
+
+    }
+
+    .Slide_Wrapper .Duty {
+        font-size: 25px;
+        top: 10%;
+    }
+
+    .swiper-container {
+        width: 90%;
+    }
+
+    .Slide_Wrapper .Slide .image_box img {
+        z-index: 0;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10%;
+        margin-left: -20%;
+        position: relative;
+        width: 370px;
+    }
+
+    .Right_Polygon {
+        width: 40%;
+        margin-left: 61%;
+    }
+
+    /* ################SEC4####################### */
+    .Technologies {
+        position: relative;
+    }
+
+    .Sec4_Head_Text {
+        position: absolute;
+        text-align: center;
+        margin-left: 22%;
+        margin-top: 4%;
+        font-size: 9vw;
+        font-weight: 900;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+
+    }
+
+    .Sec4_Head {
+        display: block;
+        margin: 50px auto;
+        width: 85%;
+
+    }
+
+    .Tech_Box {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20%;
+        width: 65vw;
+        height: 400px;
+        background-color: rgba(0, 0, 0, .6);
+        border-radius: 25px;
+
+    }
+
+    .Tech_Box img {
+        width: 40%;
+        margin-left: 30%;
+        margin-top: -20%;
+    }
+
+    .Tech_Name {
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 3rem;
+    }
+
+    .Tech_Desc {
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        padding: 0 30px;
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .Projects {
+        width: 90%;
+        display: block;
+        margin: 10% auto;
+    }
+
+    .Project_Row {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .Projects_img {
+        width: 100%;
+
+    }
+
+    .BG_Sec5 {
+        display: none;
+    }
+
+    .Form_Frame {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+
+    }
+
+    .Form_img {
+        width: 100%;
+        margin-left: 2vw;
+    }
+
+    .Form {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, .6);
+        padding: 10% 5%;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .Header_form {
+        color: white;
+        font-size: 2.5rem;
+
+    }
+
+    .Form input {
+        display: block;
+        margin: 10% auto;
+    }
+
+    ::placeholder {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        color: white;
+    }
+
+    .Form .Name {
+        background: transparent;
+        border: none;
+        width: 80%;
+        text-align: center;
+        font-size: 1.1rem;
+        padding-bottom: 2%;
+        border-bottom: 2px solid white;
+    }
+
+    .Form .Mail {
+        background: transparent;
+        border: none;
+        width: 80%;
+        text-align: center;
+        font-size: 1.1rem;
+        padding-bottom: 2%;
+        border-bottom: 2px solid white;
+    }
+
+    .Request_Head {
+        color: white;
+        font-size: 2.5rem;
+    }
+
+    .Request {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        height: 30vh;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 5%;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+    }
+
+    .Sub {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 900;
+        padding: 5%;
+        background: transparent;
+        color: white;
+        margin-top: 5%;
+        border: solid 2px #00ec7e;
+        border-radius: 20px;
+    }
+
+    footer {
+        display: block;
+        width: 100%;
+        margin: 10% auto;
+        padding: 5%;
+        margin-bottom: 0;
+        background-color: rgba(0, 0, 0, .6);
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .logo_footer {
+        width: 50%;
+        margin: 0 25%;
+    }
+
+    hr {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+}
+
+/* Mobile Design */
+
+@media (max-width : 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: #373636;
+
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        z-index: 500;
+    }
+
+    header .toggle-btn {
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .toggle-btn span {
+        display: block;
+        font-size: 30px;
+        color: white;
+    }
+
+    .Nav_Style {
+        position: absolute;
+        margin-top: 5%;
+        top: 5vh;
+        width: 100vw;
+        background-color: rgb(0, 0, 0);
+        display: block;
+        list-style: none;
+        text-align: center;
+        color: black;
+        transform-origin: top;
+        transform: scaleY(0);
+        transition: transform .5s;
+        z-index: -1;
+
+    }
+
+    .Nav_Style_Transition {
+        transform: scaleY(1);
+        color: white;
+    }
+
+    .Nav_Style li {
+        padding: 20px;
+    }
+
+    .Nav_Style li a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        transition: .5s;
+    }
+
+
+
+    /* ################SEC1####################### */
+    .logo {
+        display: block;
+        margin: 0 25%;
+        margin-bottom: 10px;
+        margin-top: -5px;
+        width: 60vw;
+        height: 50%;
+    }
+
+    .Sec1 {
+        width: 100%;
+
+    }
+
+    .Full_Logo {
+        display: block;
+        margin: 10% auto;
+        margin-top: 80px;
+        width: 80%;
+        height: 80%;
+        z-index: 2;
+    }
+
+    .Rect {
+        display: none;
+    }
+
+    .Cyber {
+        display: none;
+    }
+
+    .Ellipse {
+        display: none;
+    }
+
+    .Home_Des {
+        width: 80%;
+        height: 80%;
+        display: block;
+        margin-left: 11%;
+        font-size: 1.9rem;
+        list-style: none;
+        color: #fff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .Home_Des li {
+
+        margin: 50px 0px;
+    }
+
+    /* ################SEC2####################### */
+    .ProjectWrap {
+        position: relative;
+    }
+
+    .ProjectStruct {
+        position: absolute;
+        margin-left: 13%;
+        margin-top: 6%;
+        font-size: 9vw;
+        color: #fff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .ProjetHead {
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    .CompLogo {
+        width: 90%;
+        margin: 5%;
+    }
+
+    .BackSec2 {
+        display: none;
+    }
+
+    .ProjectLevel1,
+    .ProjectLevel2,
+    .ProjectLevel3,
+    .ProjectLevel4 {
+        font-size: 9vw;
+        color: #fff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 10%;
+        margin-left: 10%;
+        padding-bottom: 3%;
+        border-bottom: 2px solid #00ec7e;
+        width: 80%;
+    }
+
+    .Sec2End {
+        display: none;
+    }
+
+    /* ################SEC3####################### */
+    .Left_Polygon {
+        width: 40%;
+        transform: rotate(180deg);
+    }
+
+    .swiper-container {
+        width: 80vw;
+    }
+
+    .Slide {
+        width: 80%;
+    }
+
+    .Slide_Wrapper {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Slide_Wrapper .Slide_Name {
+        z-index: 10;
+        font-size: 2rem;
+        position: relative;
+        text-align: center;
+        top: 60px;
+    }
+
+    .Slide_Wrapper .Slide {
+        border-radius: 25px;
+        margin: 0 auto;
+        width: 80vw;
+        height: 380px;
+        background-color: rgba(0, 0, 0, .6);
+
+    }
+
+    .Slide_Wrapper .Duty {
+        font-size: 25px;
+        top: 10%;
+    }
+
+    .swiper-container {
+        width: 90%;
+    }
+
+    .Slide_Wrapper .Slide .image_box img {
+        z-index: 0;
+        margin-top: 6%;
+        margin-left: -16%;
+        position: relative;
+        width: 100%;
+    }
+
+    .Right_Polygon {
+        width: 40%;
+        margin-left: 61%;
+    }
+
+    /* ################SEC4####################### */
+    .Technologies {
+        position: relative;
+    }
+
+    .Sec4_Head_Text {
+        position: absolute;
+        text-align: center;
+        margin-left: 16%;
+        margin-top: 2.5%;
+        font-size: 11vw;
+        font-weight: 900;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+
+    }
+
+    .Sec4_Head {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .Tech_Box {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20%;
+        width: 80vw;
+        height: 400px;
+        background-color: rgba(0, 0, 0, .6);
+        border-radius: 25px;
+
+    }
+
+    .Tech_Box img {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: -10%;
+    }
+
+    .Tech_Name {
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 2rem;
+    }
+
+    .Tech_Desc {
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        padding: 5px;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .Projects {
+        width: 90%;
+        display: block;
+        margin: 10% auto;
+    }
+
+    .Project_Row {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .Projects_img {
+        width: 100%;
+
+    }
+
+    .BG_Sec5 {
+        display: none;
+    }
+
+    .Form_Frame {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+
+    }
+
+    .Form_img {
+        width: 100%;
+        margin-left: 2vw;
+    }
+
+    .Form {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, .6);
+        padding: 10% 5%;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .Header_form {
+        color: white;
+        font-size: 2.5rem;
+
+    }
+
+    .Form input {
+        display: block;
+        margin: 10% auto;
+    }
+
+    ::placeholder {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        color: white;
+    }
+
+    .Form .Name {
+        background: transparent;
+        border: none;
+        width: 80%;
+        text-align: center;
+        font-size: 1.1rem;
+        padding-bottom: 2%;
+        border-bottom: 2px solid white;
+    }
+
+    .Form .Mail {
+        background: transparent;
+        border: none;
+        width: 80%;
+        text-align: center;
+        font-size: 1.1rem;
+        padding-bottom: 2%;
+        border-bottom: 2px solid white;
+    }
+
+    .Request_Head {
+        color: white;
+        font-size: 2.5rem;
+    }
+
+    .Request {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        height: 30vh;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 5%;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+    }
+
+    .Sub {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 900;
+        padding: 5%;
+        background: transparent;
+        color: white;
+        margin-top: 5%;
+        border: solid 2px #00ec7e;
+        border-radius: 20px;
+    }
+
+    footer {
+        display: block;
+        width: 100%;
+        margin: 10% auto;
+        padding: 5%;
+        margin-bottom: 0;
+        background-color: rgba(0, 0, 0, .6);
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .logo_footer {
+        width: 50%;
+        margin: 0 25%;
+    }
+
+    hr {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+}

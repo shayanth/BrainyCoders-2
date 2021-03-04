@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1067" height="480" viewBox="0 0 1067 480">
+  <defs>
+    <filter id="Back_Sec_2" x="0" y="0" width="1067" height="480" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Back_Sec_2)">
+    <g id="Back_Sec_2-2" data-name="Back Sec 2" transform="translate(9)" fill="#202020" stroke="#707070" stroke-width="1">
+      <rect width="1049" height="458" rx="86" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1048" height="457" rx="85.5" fill="none"/>
+    </g>
+  </g>
+</svg>
