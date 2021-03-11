@@ -259,6 +259,6 @@ function Query1271(media) {
 
   }
 }
-var media1271 = window.matchMedia("(min-width: 1271px)");
-Query1271(media1271);
-media1271.addListener(Query1271);
+//var media1271 = window.matchMedia("(min-width: 1271px)");
+//Query1271(media1271);
+//media1271.addListener(Query1271);

@@ -158,10 +158,12 @@ header .toggle-btn {
     width: 50vw;
     margin: 0 auto;
     background-color: gray;
+   
 }
 
 /* Section 2 */
 .Sec2 {
+    position: relative;
     margin-top: 2%;
     margin-bottom: 30%;
     width: 100vw;
