@@ -1262,6 +1262,9 @@ footer {
     }
 
     /* ################SEC2####################### */
+    .Sec2{
+        position: relative;
+    }
     .ProjectWrap {
         position: relative;
         display: block;
