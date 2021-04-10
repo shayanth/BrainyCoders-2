@@ -87,8 +87,8 @@ function Query1271(media) {
         ProjectRows[0].classList.toggle("Projects_RowAnimation",window.scrollY > 4100)
         ProjectRows[1].classList.toggle("Projects_RowAnimation",window.scrollY > 4200)
         
-        FormImg.classList.toggle("Form_imgAnimation",window.scrollY > 5400)
-        Form.classList.toggle("FormAnimation",window.scrollY > 5400)
+        FormImg.classList.toggle("Form_imgAnimation",window.scrollY > 5300)
+        Form.classList.toggle("FormAnimation",window.scrollY > 5300)
 
         
 
